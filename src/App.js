@@ -1,8 +1,15 @@
 import React from "react";
 import "./App.css";
+import WelcomePage from "./pages/welcome/welcome.page.js";
 
-function App() {
-  return <h1>This is the login page of the app</h1>;
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <WelcomePage />
+      </div>
+    );
+  }
 }
 
 export default App;

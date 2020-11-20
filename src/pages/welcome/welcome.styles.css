@@ -1,0 +1,150 @@
+.mediaViewInfo {
+  --web-view-name: iPhone X, XS, 11 Pro – 1;
+  --web-view-id: iPhone_X_XS_11_Pro__1;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+:root {
+  --web-view-ids: iPhone_X_XS_11_Pro__1;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+.page-container {
+  position: absolute;
+  width: 375px;
+  height: 812px;
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+  --web-view-name: iPhone X, XS, 11 Pro – 1;
+  --web-view-id: iPhone_X_XS_11_Pro__1;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+
+#container {
+  fill: rgba(18, 0, 120, 1);
+  stroke: rgba(112, 112, 112, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.container {
+  position: absolute;
+  overflow: visible;
+  width: 375px;
+  height: 812px;
+  left: 0px;
+  top: 0px;
+}
+
+.Group_cud {
+  position: absolute;
+  width: 351px;
+  height: 183px;
+  left: 12.5px;
+  top: 67.5px;
+  overflow: visible;
+}
+
+#cud {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+  left: 41px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 270px;
+  white-space: nowrap;
+  line-height: 104px;
+  margin-top: -7px;
+  text-align: left;
+  font-family: Arcade Normal;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 90px;
+  color: rgba(223, 91, 140, 1);
+  letter-spacing: 0.27px;
+}
+
+#geocaching {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+  left: 0px;
+  top: 92px;
+  position: absolute;
+  overflow: visible;
+  width: 352px;
+  white-space: nowrap;
+  line-height: 79px;
+  margin-top: -22px;
+  text-align: left;
+  font-family: Arcade Normal;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  color: rgba(223, 91, 140, 1);
+  letter-spacing: 0.27px;
+}
+
+#Path_1 {
+  fill: rgba(253, 58, 105, 1);
+}
+.Path_1 {
+  filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.161));
+  overflow: visible;
+  position: absolute;
+  width: 300px;
+  height: 87.588px;
+  left: 32px;
+  top: 240px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: iPhone_X__XS__11_Pro___2.html;
+  cursor: pointer;
+}
+
+#start {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+  left: 58.5px;
+  top: 255px;
+  position: absolute;
+  overflow: visible;
+  width: 261px;
+  white-space: nowrap;
+  line-height: 60px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: Arcade Normal;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  color: rgba(254, 205, 26, 1);
+  letter-spacing: 0.27px;
+}
+
+#world {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+  position: absolute;
+  width: 285px;
+  height: 278px;
+  left: 45px;
+  top: 478px;
+  overflow: visible;
+}
