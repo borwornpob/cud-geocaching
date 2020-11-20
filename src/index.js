@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 import reportWebVitals from "./reportWebVitals";
+import "./assets/fonts/ARCADE_N.TTF";
 
 ReactDOM.render(
   <React.StrictMode>
