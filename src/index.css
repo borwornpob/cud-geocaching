@@ -14,5 +14,5 @@ code {
 
 @font-face {
   font-family: "Arcade";
-  src: local("Arcade"), url("./assets/fonts/ARCADE_N.TTF") format("truetype");
+  src: local("Arcade"), url(./assets/fonts/ARCADE_N.TTF) format("truetype");
 }
